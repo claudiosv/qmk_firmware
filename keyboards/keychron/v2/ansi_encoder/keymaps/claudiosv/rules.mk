@@ -1,6 +1,12 @@
 ENCODER_MAP_ENABLE = yes
 LTO_ENABLE = yes
 
+# Enable debug information in the final binaries
+# DEBUG_ENABLE = yes
+# # Disable optimisations for debugging purposes
+# LTO_ENABLE = no
+# OPT = g
+
 # required for mouse keys MS_*
 # MOUSEKEY_ENABLE = yes
 MOUSEKEY_ENABLE = no
