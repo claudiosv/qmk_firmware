@@ -1,0 +1,7 @@
+#pragma once
+
+#define RGB_MATRIX_TIMEOUT 60000
+#define TAP_HOLD_CAPS_DELAY 200
+#define TAP_CODE_DELAY 0
+//TAP_CODE_DELAY 100
+#define TAPPING_TERM 100
