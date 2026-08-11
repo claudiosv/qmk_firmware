@@ -1,0 +1,63 @@
+.vscode/settings.json
+  s_6c15018fdeec30::t_33ab3ed605f4b0 56-57
+jsons/annepro2_keymap.json
+  s_6c15018fdeec30::t_a08a0de138b688 1-10
+jsons/keychron_v2_keymap.json
+  s_6c15018fdeec30::t_6221d527a07505 1-12
+keyboards/annepro2/keymaps/claudiosv/config.h
+  s_6c15018fdeec30::t_3a832dab41e2d6 3-4,9-42
+keyboards/annepro2/keymaps/claudiosv/keymap.c
+  s_6c15018fdeec30::t_a64e280f8023a1 19,25-26,30-31,33-34,41-44,48
+keyboards/annepro2/keymaps/claudiosv/rules.mk
+  s_6c15018fdeec30::t_07e943f726b159 1,6-40
+keyboards/keychron/q2/ansi_encoder/keymaps/claudiosv/.clang-format
+  s_6c15018fdeec30::t_24506441b96b6c 1-29
+keyboards/keychron/q2/ansi_encoder/keymaps/claudiosv/config.h
+  s_6c15018fdeec30::t_b0e626a2490413 1-114
+keyboards/keychron/q2/ansi_encoder/keymaps/claudiosv/keymap.c
+  s_6c15018fdeec30::t_4eabbf91de5604 1-288
+keyboards/keychron/q2/ansi_encoder/keymaps/claudiosv/rules.mk
+  s_6c15018fdeec30::t_d982fe32565747 1-43
+keyboards/keychron/q2/ansi_encoder/keymaps/claudiosvold/.clang-format
+  s_6c15018fdeec30::t_b45ccc4bfa2eda 1-29
+keyboards/keychron/q2/ansi_encoder/keymaps/claudiosvold/config.h
+  s_6c15018fdeec30::t_033cb6e6ff564a 1-112
+keyboards/keychron/q2/ansi_encoder/keymaps/claudiosvold/keymap.c
+  s_6c15018fdeec30::t_01e5bb5328b310 1-473
+keyboards/keychron/q2/ansi_encoder/keymaps/claudiosvold/rules.mk
+  s_6c15018fdeec30::t_f6862bc4cec76c 1-42
+keyboards/keychron/v2/ansi_encoder/keymaps/claudiosv/config.h
+  s_6c15018fdeec30::t_ef7d7983eb00a0 25-26
+keyboards/keychron/v2/ansi_encoder/keymaps/claudiosv/keymap.c
+  s_6c15018fdeec30::t_45b01ccc3f3745 57,60-64,68-73,76,78-79,118-119,130-139,143,152,155-160,179-194,211,225,238-240,242-249,260-262,264-268,271-283,285-288
+keyboards/keychron/v2/ansi_encoder/keymaps/claudiosv/rules.mk
+  s_6c15018fdeec30::t_b5340aebda3330 2,5,7,11-12,21-22,28,32
+keychron_v2_keymap.yaml
+  s_6c15018fdeec30::t_81be8db437770f 1-195
+keymap_config.yml
+  s_6c15018fdeec30::t_60c98ead72faac 1-449
+svgs/annepro2_keymap.yml
+  s_6c15018fdeec30::t_7c905fc25ef9d5 1-125
+svgs/keychron_v2_keymap.yaml
+  s_6c15018fdeec30::t_a7254405d2233a 1-195
+svgs/keychron_v2_keymap.yml
+  s_6c15018fdeec30::t_49a47e2a9ef112 1-168
+visualize.sh
+  s_6c15018fdeec30::t_fb7961838446d3 1-44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "256467913094e02614d289f69165ef4da1dca1dc",
+  "prompts": {},
+  "sessions": {
+    "s_6c15018fdeec30": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "06cf30cf-49b0-425e-9518-79d488c4e15d",
+        "model": "unknown"
+      },
+      "human_author": "Claudio Spiess <claudiosv@users.noreply.github.com>"
+    }
+  }
+}
