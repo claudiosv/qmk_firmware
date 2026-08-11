@@ -18,7 +18,7 @@
 
 // #define NO_DEBUG
 // #define NO_PRINT
-#define USER_PRINT
+// #define USER_PRINT
 
 #define RGB_MATRIX_MODE_NAME_ENABLE
 #define RGB_MATRIX_SLEEP

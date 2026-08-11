@@ -1,13 +1,5 @@
-RGB_MATRIX_ENABLE = yes
-RGB_MATRIX_SLEEP = yes
-COMMAND_ENABLE = yes
-BOOTMAGIC_ENABLE = yes
-SEND_STRING_ENABLE = yes
-LEADER_ENABLE = yes
-DEBOUNCE_TYPE = sym_defer_pk
-# https://docs.qmk.fm/feature_debounce_type
-
-# LTO_ENABLE = yes
+ENCODER_MAP_ENABLE = yes
+LTO_ENABLE = yes
 
 # Enable debug information in the final binaries
 # DEBUG_ENABLE = yes
@@ -17,9 +9,13 @@ DEBOUNCE_TYPE = sym_defer_pk
 
 # required for mouse keys MS_*
 # MOUSEKEY_ENABLE = yes
-# MOUSEKEY_ENABLE = no
+MOUSEKEY_ENABLE = no
 
 RGBLIGHT_ENABLE = no
+COMMAND_ENABLE = yes
+BOOTMAGIC_ENABLE = yes
+SEND_STRING_ENABLE = yes
+LEADER_ENABLE = yes
 
 # Serial console
 # CONSOLE_ENABLE = yes
@@ -38,3 +34,9 @@ SPACE_CADET_ENABLE = no
 # RGBLIGHT_DRIVER = snled27351
 # RGBLIGHT_ENABLE = yes
 # RGB_MATRIX_DRIVER = snled27351
+# RGB_MATRIX_ENABLE = yes
+# https://www.keychron.com/pages/how-to-factory-reset-or-use-the-launcher-web-app-to-flash-firmware-for-your-keyboard
+# 1. Turn on your keyboard.
+
+# 2. Press and hold fn + J + Z (for 4 seconds).
+# The keyboard backlight will flash red quickly for three seconds, indicating that your keyboard has been reset.

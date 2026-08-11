@@ -22,8 +22,6 @@
 
 #define RGB_MATRIX_MODE_NAME_ENABLE
 #define RGB_MATRIX_SLEEP
-#define LEADER_TIMEOUT 1000
-// default 350
 // 60000ms = 1 minute, 600000ms = 10 minutes
 #define RGB_MATRIX_TIMEOUT 600000
 #define ENABLE_COMPILE_KEYCODE

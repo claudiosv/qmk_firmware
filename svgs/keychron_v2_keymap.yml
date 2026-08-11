@@ -1,0 +1,168 @@
+layout: {qmk_keyboard: keychron/v2/ansi_encoder, layout_name: LAYOUT_ansi_67}
+layers:
+  MAC_BASE:
+  - [Esc, '1', '2', '3', '4', '5', '6', '7', '8', '9']
+  - ['0', '-', '=', Backspace, Mute, Tab, Q, W, E, R]
+  - [T, Y, U, I, O, P, '[', ']', \, Delete]
+  - [FN3, A, S, D, F, G, H, J, K, L]
+  - [;, '''', Enter, Home, Shift, Z, X, C, V, B]
+  - [N, M, ',', ., /, Shift, ↑, Ctrl, Opt, Cmd]
+  - [Space, Cmd, FN1, FN2, ←, ↓, →]
+  WIN_BASE:
+  - [Esc, '1', '2', '3', '4', '5', '6', '7', '8', '9']
+  - ['0', '-', '=', Backspace, Mute, Tab, Q, W, E, R]
+  - [T, Y, U, I, O, P, '[', ']', \, Delete]
+  - [FN3, A, S, D, F, G, H, J, K, L]
+  - [;, '''', Enter, Home, Shift, Z, X, C, V, B]
+  - [N, M, ',', ., /, Shift, ↑, Ctrl, Win, Alt]
+  - [Space, Alt, FN1, FN2, ←, ↓, →]
+  FN1:
+  - - Sleep
+    - Bri -
+    - Bri +
+    - Calc
+    - Search
+    - PC
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - Wake
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - Task View
+    - Explorer
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - Whl ↑
+    - L-Click
+    - Ms ↑
+    - R-Click
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - Caps Lock
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - Whl ↓
+    - Ms ←
+    - Ms ↓
+    - Ms →
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  FN2:
+  - [Bootloader, '', '', '', '', '', '', '', '', '']
+  - ['', '', '', '', '', '', Prev, Toggle, Next, Hue -]
+  - [Hue +, '', '', '', '', '', '', '', Debug Toggle, Make]
+  - - {t: ▽, type: trans}
+    - Bri -
+    - Bri +
+    - Sat -
+    - Sat +
+    - ''
+    - ''
+    - ''
+    - ''
+    - Leader
+  - ['', '', Clear EEPROM, Reboot, '', Spd -, Spd +, '', '', '']
+  - ['', '', '', '', '', '', '', '', '', '']
+  - - ''
+    - ''
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - ''
+    - ''
+    - ''
+  FN3:
+  - ['`', F1, F2, F3, F4, F5, F6, F7, F8, F9]
+  - - F10
+    - F11
+    - F12
+    - Delete
+    - Mac Ctrl |
+    - {t: ▽, type: trans}
+    - Prev
+    - Play
+    - Next
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - Home
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - Vol -
+    - Vol +
+    - Mute
+    - {t: ▽, type: trans}
+    - ←
+    - ↓
+    - ↑
+    - →
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - End
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}

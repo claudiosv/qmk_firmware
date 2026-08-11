@@ -53,5 +53,6 @@
             "fileMatch": ["keymap.json"],
             "url": "./data/schemas/keymap.jsonschema"
         }
-    ]
+    ],
+    "cmake.sourceDirectory": "/Users/claudio/Projects/qmk_firmware/lib/googletest"
 }
