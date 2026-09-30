@@ -1,0 +1,16 @@
+keyboards/keychron/q2/ansi_encoder/keymaps/claudiosv/rules.mk
+  h_aceaeb4e74d6dc 4-5
+keyboards/keychron/q2/ansi_encoder/keymaps/claudiosv/config.h
+  h_aceaeb4e74d6dc 19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "7a2c062ae9b17eecbd415a3587b05986f4ed0bba",
+  "prompts": {},
+  "humans": {
+    "h_aceaeb4e74d6dc": {
+      "author": "Claudio Spiess <claudiosv@users.noreply.github.com>"
+    }
+  }
+}
