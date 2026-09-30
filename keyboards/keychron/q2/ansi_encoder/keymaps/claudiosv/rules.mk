@@ -1,6 +1,8 @@
 ENCODER_MAP_ENABLE = yes
 # LTO_ENABLE = yes
 
+DEBOUNCE_TYPE = sym_defer_pk
+
 # Enable debug information in the final binaries
 # DEBUG_ENABLE = yes
 # # Disable optimisations for debugging purposes

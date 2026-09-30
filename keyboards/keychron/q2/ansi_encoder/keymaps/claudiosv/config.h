@@ -16,6 +16,7 @@
 
 #pragma once
 
+#define DEBOUNCE 10
 // #define NO_DEBUG
 // #define NO_PRINT
 // #define USER_PRINT
