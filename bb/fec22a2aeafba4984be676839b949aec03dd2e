@@ -1,0 +1,30 @@
+keyboards/keychron/q2/ansi_encoder/keymaps/claudiosv/keymap.c
+  s_821a391d582aa3::t_27b9ab70db003c 138-150
+keyboards/keychron/q2/ansi_encoder/keymaps/claudiosv/config.h
+  h_aceaeb4e74d6dc 21,25
+  s_821a391d582aa3::t_27b9ab70db003c 19-20,22-24
+keyboards/keychron/q2/ansi_encoder/keymaps/claudiosv/rules.mk
+  h_aceaeb4e74d6dc 13-14
+  s_821a391d582aa3::t_27b9ab70db003c 4-12,15-19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "bbfec22a2aeafba4984be676839b949aec03dd2e",
+  "prompts": {},
+  "humans": {
+    "h_aceaeb4e74d6dc": {
+      "author": "Claudio Spiess <claudiosv@users.noreply.github.com>"
+    }
+  },
+  "sessions": {
+    "s_821a391d582aa3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d9c6b9e1-7d9d-46ba-b8a0-507926e7cf04",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Claudio Spiess <claudiosv@users.noreply.github.com>"
+    }
+  }
+}
