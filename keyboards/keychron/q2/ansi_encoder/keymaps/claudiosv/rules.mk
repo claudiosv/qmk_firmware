@@ -1,7 +1,22 @@
 ENCODER_MAP_ENABLE = yes
 # LTO_ENABLE = yes
 
-DEBOUNCE_TYPE = sym_defer_pk
+# Algorithm              Key-down    Key-up      Scope     Noise resistance
+# -------------------------------------------------------------------------
+# sym_defer_g (Default)  ≥5 ms       ≥5 ms       Global    High
+# sym_defer_pr           ≥5 ms       ≥5 ms       Per row   High
+# sym_defer_pk           ≥5 ms       ≥5 ms       Per key   High
+# sym_eager_pr           Immediate   Immediate   Per row   Lower
+# sym_eager_pk           Immediate   Immediate   Per key   Lower
+# asym_eager_defer_pk    Immediate   ≥5 ms       Per key   Mixed
+
+# DEBOUNCE_TYPE = sym_defer_pk
+DEBOUNCE_TYPE = sym_eager_pk
+
+
+# Serial console
+CONSOLE_ENABLE = yes
+# CONSOLE_ENABLE = no
 
 # Enable debug information in the final binaries
 # DEBUG_ENABLE = yes
@@ -19,9 +34,6 @@ BOOTMAGIC_ENABLE = yes
 SEND_STRING_ENABLE = yes
 LEADER_ENABLE = yes
 
-# Serial console
-# CONSOLE_ENABLE = yes
-CONSOLE_ENABLE = no
 
 
 

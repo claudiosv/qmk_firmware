@@ -16,7 +16,13 @@
 
 #pragma once
 
-#define DEBOUNCE 10
+// #define DEBOUNCE 0   // Disabled
+// #define DEBOUNCE 2   // 2 ms
+// #define DEBOUNCE 5   // Default
+// #define DEBOUNCE 10  // More conservative
+#define DEBOUNCE 20  // For particularly noisy switches
+
+// #define DEBOUNCE 25
 // #define NO_DEBUG
 // #define NO_PRINT
 // #define USER_PRINT

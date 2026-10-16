@@ -135,6 +135,19 @@ static rgb_t    result_rgb;              // Stores the Success/Fail color
 // debug_keyboard = true; // Uncomment if you need raw keypress details
 // }
 
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+#ifdef CONSOLE_ENABLE
+    if (keycode == KC_0) {
+        uprintf(
+            "KC_0 %s at %u ms\n",
+            record->event.pressed ? "DOWN" : "UP",
+            (unsigned)record->event.time
+        );
+    }
+#endif
+    return true;
+}
+
 hsv_t hsvs[] = {{HSV_RED}, {HSV_BLUE}, {HSV_GREEN}};
 
 bool rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
